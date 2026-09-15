@@ -101,7 +101,6 @@ pnpm run build
 
 - **Name:** Vakada Abhiram
 - **Email:** [vakada1608@gmail.com](mailto:vakada1608@gmail.com)
-- **Phone / Mobile:** [+91 75690 55798](tel:+917569055798)
 - **GitHub:** [@ABHI-1620](https://github.com/ABHI-1620)
 - **LinkedIn:** [Vakada Abhiram](https://linkedin.com)
 
