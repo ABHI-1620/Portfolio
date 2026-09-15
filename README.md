@@ -13,7 +13,7 @@
   A high-performance, recruiter-ready developer portfolio engineered with <b>TypeScript</b>, <b>React 19</b>, and <b>Tailwind CSS v4</b>. Features curated engineering case studies, interactive architectural deep-dives, dual Obsidian/Parchment themes, and comprehensive technical project breakdowns.
 </p>
 
-[**Explore Live Website »**](https://portfolio-abhi-1620.vercel.app) · [**Report Bug**](https://github.com/ABHI-1620/Portfolio/issues) · [**Connect on LinkedIn**](https://linkedin.com)
+[**Explore Live Website »**](https://va-portfolio.vercel.app) · [**Report Bug**](https://github.com/ABHI-1620/Portfolio/issues) · [**Connect on LinkedIn**](https://linkedin.com)
 
 </div>
 
@@ -21,7 +21,7 @@
 
 ## 📌 Overview
 
-This repository houses the personal software engineering portfolio of **Vakada Abhiram**, a Computer Science Engineering student at **Amrita School of Computing** (Amrita Vishwa Vidyapeetham) and **AWS Certified Cloud Practitioner (CLF-C02)**. 
+This repository houses the personal software engineering portfolio of **Vakada Abhiram**, a Computer Science & Engineering Graduate (2026) from **Amrita School of Computing**, **Amrita Vishwa Vidyapeetham** and **AWS Certified Cloud Practitioner (CLF-C02)**. 
 
 The portfolio is designed from the ground up as a technical showcase demonstrating:
 - **Zero-Bloat TypeScript Architecture:** 100% type-safe codebase with strict schema models and zero runtime type errors.
@@ -45,7 +45,7 @@ The portfolio is designed from the ground up as a technical showcase demonstrati
 
 ## 🛠️ Technical Skillset
 
-- **Languages:** Python, Java, JavaScript (ES6+), SQL
+- **Languages:** Python, Java, TypeScript, JavaScript (ES6+), SQL
 - **Cloud & DevOps:** AWS (CLF-C02 Certified), Linux, Git, GitHub, OpenTelemetry, CI/CD
 - **Frontend Development:** TypeScript, React 19, Tailwind CSS v4, Vite, HTML5, CSS3, Responsive UI/UX
 - **Backend & Systems:** FastAPI, Node.js, RESTful APIs, Socket Programming, Multi-Threading
@@ -57,7 +57,7 @@ The portfolio is designed from the ground up as a technical showcase demonstrati
 ## 📜 Certifications & Education
 
 - **AWS Certified Cloud Practitioner (CLF-C02)** — *Amazon Web Services (AWS), Issued 2025*
-- **B.Tech in Computer Science & Engineering** — *Amrita School of Computing, Amrita Vishwa Vidyapeetham (Expected 2026)*
+- **B.Tech in Computer Science & Engineering (2022 – 2026)** — *Amrita School of Computing, Amrita Vishwa Vidyapeetham*
 
 ---
 

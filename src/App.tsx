@@ -169,7 +169,7 @@ const skillCategories = [
   {
     title: "Languages",
     icon: Code2,
-    skills: ["Python", "Java", "JavaScript (ES6+)", "SQL"],
+    skills: ["Python", "Java", "TypeScript", "JavaScript (ES6+)", "SQL"],
   },
   {
     title: "Cloud & DevOps",
@@ -179,7 +179,7 @@ const skillCategories = [
   {
     title: "Frontend Engineering",
     icon: Globe,
-    skills: ["ReactJS", "Tailwind CSS", "Vite", "HTML5", "CSS3 / Responsive UI"],
+    skills: ["TypeScript", "ReactJS", "Tailwind CSS", "Vite", "HTML5", "CSS3 / Responsive UI"],
   },
   {
     title: "Backend & Systems",
@@ -214,7 +214,7 @@ function useTheme() {
     if (typeof window !== "undefined") {
       const saved = localStorage.getItem("portfolio-theme") as "light" | "dark" | null;
       if (saved) return saved;
-      return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      return "light";
     }
     return "light";
   });
@@ -382,7 +382,7 @@ function Home() {
              <h1 className="display-font hero-title mt-3 max-w-[750px] text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[.9] tracking-[-.05em]" data-testid="text-hero-title">I build systems<br /><em className="ml-[.18em] text-[hsl(var(--accent))]">people can</em><br />trust.</h1>
           </Reveal>
            <Reveal delay={2} className="mt-5 flex max-w-[580px] flex-col gap-5 md:ml-[18%] md:flex-row md:items-end">
-              <p className="max-w-[360px] text-sm leading-relaxed text-[hsl(var(--muted-foreground))]" data-testid="text-hero-summary">I am Vakada Abhiram, a Computer Science Engineering student at Amrita School of Computing. I specialize in developing high-performance full-stack web applications, cloud infrastructure, and security intelligence tools.</p>
+              <p className="max-w-[360px] text-sm leading-relaxed text-[hsl(var(--muted-foreground))]" data-testid="text-hero-summary">I am Vakada Abhiram, a Computer Science &amp; Engineering graduate (2026) from Amrita School of Computing, Amrita Vishwa Vidyapeetham. I specialize in developing high-performance full-stack web applications, cloud infrastructure, and security intelligence tools.</p>
             <div className="flex shrink-0 flex-wrap items-center gap-3">
               <a href="/#work" className="button-primary group inline-flex items-center gap-1.5 text-xs font-medium" data-testid="link-hero-work">Explore Selected Work <ArrowUpRight size={14} className="link-arrow" /></a>
             </div>
@@ -489,7 +489,8 @@ function Home() {
                        <div>
                          <p className="eyebrow text-[#17221b]/80 dark:text-[hsl(var(--muted-foreground))]">Education</p>
                          <h3 className="mt-1.5 text-sm font-semibold">B.Tech in Computer Science</h3>
-                         <p className="mt-0.5 text-[11px] text-[#17221b]/70 dark:text-[hsl(var(--muted-foreground))]">Amrita School of Computing</p>
+                         <p className="mt-0.5 text-[11px] font-medium text-[#17221b]/80 dark:text-[hsl(var(--foreground))]">Amrita School of Computing</p>
+                         <p className="text-[11px] text-[#17221b]/70 dark:text-[hsl(var(--muted-foreground))]">Amrita Vishwa Vidyapeetham</p>
                        </div>
                      </article>
                      <article className="context-card flex gap-3 border-t border-[#17221b]/25 pt-2.5 dark:border-[hsl(var(--border))]">
@@ -629,7 +630,7 @@ function PageMetadata() {
       : "Vakada Abhiram — Software Engineer | Full-Stack & Cybersecurity";
     const description = project
       ? `${project.title}: ${project.summary}`
-      : "Portfolio of Vakada Abhiram, Computer Science student at Amrita School of Computing specializing in full-stack engineering, cloud architecture, and cybersecurity research.";
+      : "Portfolio of Vakada Abhiram, Computer Science & Engineering Graduate from Amrita School of Computing, Amrita Vishwa Vidyapeetham specializing in full-stack engineering, cloud architecture, and cybersecurity research.";
 
     document.title = title;
     const descriptionTag = document.querySelector('meta[name="description"]');
