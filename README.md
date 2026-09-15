@@ -13,7 +13,7 @@
   A high-performance, recruiter-ready developer portfolio engineered with <b>TypeScript</b>, <b>React 19</b>, and <b>Tailwind CSS v4</b>. Features curated engineering case studies, interactive architectural deep-dives, dual Obsidian/Parchment themes, and comprehensive technical project breakdowns.
 </p>
 
-[**Explore Live Website »**](https://va-portfolio.vercel.app) · [**Report Bug**](https://github.com/ABHI-1620/Portfolio/issues) · [**Connect on LinkedIn**](https://linkedin.com)
+[**Explore Live Website »**](https://aa1624-portfolio.vercel.app) · [**Report Bug**](https://github.com/ABHI-1620/Portfolio/issues) · [**Connect on LinkedIn**](https://linkedin.com)
 
 </div>
 
