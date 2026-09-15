@@ -15,6 +15,7 @@ import {
   Linkedin,
   Menu,
   Moon,
+  Phone,
   ShieldCheck,
   Sun,
   Terminal,
@@ -337,7 +338,14 @@ function Footer() {
           <div>
             <p className="eyebrow text-[hsl(var(--secondary))]">Open to the right problem</p>
             <h2 className="display-font mt-3 max-w-[550px] text-2xl leading-tight tracking-[-.03em] text-[#f4efe6] md:text-4xl">Let’s make the next system easier to trust.</h2>
-            <a href="mailto:vakada1608@gmail.com" className="mt-5 inline-flex items-center gap-2.5 border-b border-[hsl(var(--secondary))] pb-1.5 text-sm text-[hsl(var(--secondary))] transition-transform hover:translate-x-1" data-testid="link-email">vakada1608@gmail.com <ArrowUpRight size={15} className="link-arrow" /></a>
+            <div className="mt-5 flex flex-col items-start gap-2.5">
+              <a href="mailto:vakada1608@gmail.com" className="inline-flex items-center gap-2.5 border-b border-[hsl(var(--secondary))] pb-1 text-sm text-[hsl(var(--secondary))] transition-transform hover:translate-x-1" data-testid="link-email">
+                vakada1608@gmail.com <ArrowUpRight size={15} className="link-arrow" />
+              </a>
+              <a href="tel:+917569055798" className="inline-flex items-center gap-2 text-sm text-[#f4efe6]/85 transition-colors hover:text-[hsl(var(--secondary))]" data-testid="link-phone">
+                <Phone size={14} className="text-[hsl(var(--secondary))]" /> +91 75690 55798
+              </a>
+            </div>
           </div>
           <div className="md:justify-self-end">
             <p className="eyebrow text-[#f4efe6]/60">Find me here</p>
